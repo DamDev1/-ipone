@@ -1,0 +1,47 @@
+body{
+    font-family: 'Poppins', sans-serif;
+  
+    /* background: red; */
+    
+}
+h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+
+div{
+    /* width: 50vw;
+    height: 100vh; */
+    /* background: purple; */
+
+}
+
+#new{
+    display: grid;
+    grid-template-columns: repeat(3, 33vw)
+}
+
+#new div{
+    color: grey;
+    text-align: center;
+    background-color: aliceblue;
+    height: 50vh;
+    margin-right: 20px;
+}
+
+#new div:nth-child(2){
+    background-color: rgb(142, 137, 146);
+}
+
+
+#new div:nth-child(3){
+    background-color: rgb(78, 41, 19);
+}
+
+#new div:nth-child(1){
+    background: linear-gradient(to left , rgba(128, 0, 128, 0.589), rgba(233, 23, 4, 0.534) ) , url("./timur-m-SAKLELG-pO8-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
